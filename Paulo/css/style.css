@@ -1,5 +1,7 @@
 @import url('./_fonts.css');
 @import url('./_global.css');
+@import url('./componetes/_logo.css');
+
 
 *,
 *::after,
