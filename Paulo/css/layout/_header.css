@@ -1,5 +1,9 @@
 .header {
+    /*background-color: blueviolet;*/
     display: flex;
+    position: fixed;
+    transition: background-color .5s;
+    width: 100%;
 }
 
 .header_navigation {
