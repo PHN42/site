@@ -6,6 +6,9 @@
 @import url('./layout/_user-menu.css');
 @import url('./componetes/_logo.css');
 @import url('./componetes/_user-profile.css');
+@import url('./pages/home/_banners.css');
+@import url('./componetes/_arrow-slider.css');
+@import url('./componetes/_controls-slider.css');
 
 
 
