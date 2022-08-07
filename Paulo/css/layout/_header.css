@@ -3,6 +3,7 @@
     display: flex;
     position: fixed;
     transition: background-color .5s;
+    z-index: 10;
     width: 100%;
 }
 
