@@ -1,0 +1,52 @@
+.collection {
+    padding-top: 1rem;
+}
+
+.collection_title {
+    font-size: 1.9rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    margin: 0 auto;
+    padding: 0 1rem 1.3rem;
+    width: 91vw;
+}
+
+.movie-carousel_list {
+    justify-content: center;
+    display: flex;
+}
+
+.movie-carousel_item {
+    padding: 0 1rem;
+    width: calc(91vw/5);
+}
+
+.movie-carousel_link {
+    position: relative;
+    display: block;
+}
+
+.movie-carousel_link:hover {
+    transform: scale(1.05);
+}
+
+.movie-carousel_link::before {
+    border: .3rem solid rgba(255, 255, 255, 0);
+    border-radius: .3rem;
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: border .3s;
+
+}
+
+.movie-carousel_link:hover::before {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.movie-carousel_cover {
+    border-radius: .3rem;
+    box-shadow: rgb(16, 15, 15) 0rem 2rem 1rem -1rem;
+    width: 100%;
+}

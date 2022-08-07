@@ -3,6 +3,16 @@
     width: 91vw;
 }
 
+.categorie-title {
+    font-size: 1.9rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    margin: 0 auto;
+    padding: 0 2rem 1rem;
+    width: 91vw;
+    text-align: center;
+}
+
 
 
 .cartegory-menu {

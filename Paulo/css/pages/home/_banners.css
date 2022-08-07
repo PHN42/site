@@ -6,6 +6,7 @@
     overflow: hidden;
 }
 
+
 .banner-slider {
     display: flex;
     position: relative;
@@ -106,4 +107,14 @@
         right: 50%;
         transform: translateX(50%);
     }
+}
+
+h2 {
+    bottom: 75rem;
+    text-align: center;
+    position: relative;
+    font-size: 1.9rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    opacity: 80%;
 }
