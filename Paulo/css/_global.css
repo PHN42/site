@@ -8,8 +8,8 @@ body {
 }
 
 .background-fixed {
-    /* background: #082650;*/
-    background: url('../../imgs/background.png') no-repeat;
+    background: #182568;
+    /* background: url('../../imgs/background.png') no-repeat;*/
     background-size: cover;
     position: fixed;
     height: 100vh;

@@ -7,7 +7,7 @@ const userMenu = document.querySelector('[data-usermenu]')
 
 function onWindowScroll() {
     if (window.scrollY > 20) {
-        header.style.backgroundColor = 'blueviolet'
+        header.style.backgroundColor = '#0c1844'
     } else {
         header.style.backgroundColor = 'transparent'
     }

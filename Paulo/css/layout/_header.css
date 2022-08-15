@@ -1,5 +1,5 @@
 .header {
-    /*background-color: blueviolet;*/
+
     display: flex;
     position: fixed;
     transition: background-color .5s;

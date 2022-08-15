@@ -47,7 +47,10 @@ function animateTransition(active) {
         slider.style.removeProperty('transition')
     }
 };
-
+function setArrowBttonsDisplay() {
+    btnPrevious.style.display = state.currentSlideIndex === 0 ? 'none' : 'block'
+    btnNext.style.display = state.currentSlideIndex === (sliderItems.length - 1) ? 'none' : 'block'
+}
 function activeControlButton(index) {
     btnControls.forEach(function (item) {
         item.classList.remove('active')
@@ -67,6 +70,7 @@ function activeImageTitle(index) {
 function setVisibleSlide(index) {
     state.currentSlideIndex = index
     const position = getCenterPosition(index)
+    setArrowBttonsDisplay()
     activeControlButton(index)
     activeImageTitle(index)
     animateTransition(true)
@@ -106,6 +110,7 @@ function onMouseUp(event) {
     } else {
         setVisibleSlide(state.currentSlideIndex)
     }
+    state.movementPosition = 0
     slide.removeEventListener('mousemove', onMouseMove)
 };
 
@@ -113,6 +118,8 @@ function onMouseLeave(event) {
     const slide = event.currentTarget
     slide.removeEventListener('mousemove', onMouseMove)
 };
+
+
 
 function onTouchStart(event, index) {
     const slide = event.currentTarget
